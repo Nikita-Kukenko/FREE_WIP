@@ -1,5 +1,12 @@
 
 
+@media (max-width: 1200px) {
+	.card__bg {
+		width: auto;
+	}
+}
+
+
 @media (min-width: 768px) {
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 1.5rem;
