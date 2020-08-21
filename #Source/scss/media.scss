@@ -6,6 +6,27 @@
 	}
 }
 
+@media (max-width: 990px) {
+	.name__wrapper {
+	padding: 0 0 10px 0;
+	}
+	.email__wrapper {
+	padding: 0 0 10px 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.footer {
+		padding: 45px 10px;
+ 		.footer__nav, .footer__line {
+ 			display: none;
+ 		}
+ 		.footer__info {
+ 			margin: 0 auto;
+ 		}
+ 	}
+}
+
 
 @media (min-width: 768px) {
 .navbar-expand-md .navbar-nav .nav-link {
